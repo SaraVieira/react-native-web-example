@@ -1,0 +1,80 @@
+{
+  "name": "react-native-web-boilerplate",
+  "version": "0.1.0",
+  "description": "Write Once Render Anywhere",
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-react-native-web": "^0.3.0-rc.4",
+    "babel-preset-react-native": "^4.0.0",
+    "eslint": "^4.12.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.3.2",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.5.1",
+    "flow-bin": "^0.56.0",
+    "jest-expo": "24.0.0",
+    "prettier": "^1.9.2",
+    "react-hot-loader": "^3.1.3",
+    "react-native-scripts": "1.8.1",
+    "react-test-renderer": "16.0.0",
+    "string-replace-loader": "^1.3.0",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "now-start": "http-server web/dist",
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "jest": "node_modules/.bin/jest",
+    "lint": "node node_modules/.bin/eslint . --fix",
+    "test": "npm run lint && npm run jest",
+    "web": "webpack-dev-server --config web/webpack.config.js --hot",
+    "build": "webpack --config web/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaraVieira/react-native-web-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://SaraVieira/react-native-web-boilerplate/issues"
+  },
+  "homepage": "https://SaraVieira/react-native-web-boilerplate#readme",
+  "keywords": [
+    "react-native",
+    "react-native-web",
+    "appolo"
+  ],
+  "engines": {
+    "node": ">=6 <9"
+  },
+  "author": "Sara Vieira",
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.1.5",
+    "apollo-client": "^2.2.0",
+    "apollo-link": "^1.0.7",
+    "apollo-link-http": "^1.3.2",
+    "apollo-link-state": "^0.3.1",
+    "expo": "^24.0.2",
+    "graphql": "^0.12.3",
+    "graphql-tag": "^2.6.1",
+    "http-server": "^0.10.0",
+    "preact": "^8.2.7",
+    "preact-compat": "^3.17.0",
+    "prop-types": "^15.6.0",
+    "react": "16.2.0",
+    "react-apollo": "^2.0.4",
+    "react-dom": "^16.2.0",
+    "react-native": "0.51.0",
+    "react-native-web": "^0.3.0-rc.4",
+    "react-router-native": "^4.2.0"
+  }
+}

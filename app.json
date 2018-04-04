@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "react-native-web-boilerplate",
+    "description": "write once render anywhere",
+    "slug": "react-native-web-boilerplate",
+    "privacy": "public",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icon.png",
+    "sdkVersion": "21.0.0"
+  }
+}
